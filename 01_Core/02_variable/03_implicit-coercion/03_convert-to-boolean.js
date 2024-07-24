@@ -11,7 +11,7 @@ Falsy 값 (거짓으로 평가되는 값)
 if('JavaScript') {
     console.log("if('JavaScript')");
 }
-if(true) console.log("if(true");
+if(true) console.log("if(true)");
 if(false) console.log("if(false)");
 if(undefined) console.log("if(undefined)");
 if(null) console.log("if(null)");
@@ -19,8 +19,8 @@ if(0) console.log("if(0)");
 if(NaN) console.log("if(NaN)");
 if('') console.log("if('')");
 
-
-
+// false, undefined, null, 0, NaN, ''(빈문자열) => Falsy 값
+// 이외 모든 값은 Truthy 값이다.
 
 
 

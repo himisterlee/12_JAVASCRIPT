@@ -7,8 +7,8 @@
 
 var string;
 string = 'JavaScript';
-string = 'JavaScript';
-string = 'JavaScript'; // 백틱(ES6)
+string = "JavaScript";
+string = `JavaScript`; // 백틱(ES6)
 
 string = '작은 따옴표로 감싼 문자열 내의 "큰따옴표"는 문자열로 인식';
 string = "큰 따옴표로 감싼 문자열 내의 '작은따옴표'는 문자열로 인식"
@@ -19,9 +19,9 @@ string = "큰 따옴표로 감싼 문자열 내의 '작은따옴표'는 문자�
 */
 
 // var str = '안녕하세요.
-// 반값습니다';
+// 반갑습니다';
 
-// 큰따옴표, 작은다옴표에서는 이스케이프 시퀸스를 사용해야 줄바꿈을 할 수 있다.
+// 큰따옴표, 작은따옴표에서는 이스케이프 시퀸스를 사용해야 줄바꿈을 할 수 있다.
 var str = '안녕하세요. \n반갑습니다';
 console.log(str);
 
