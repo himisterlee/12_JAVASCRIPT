@@ -19,7 +19,7 @@ console.log(10 === 10.0);
 
 console.log(10 / 4);
 
-/* 
+/*
 숫자 타입은 추가적으로 세가지의 특별한 값 표현 가능
 Infinity : 양의 무한대
 -Infinity : 음의 무한대
@@ -27,7 +27,7 @@ NaN (not-a-number) : 산술 연산 불가
 */
 console.log(10 / 0); // infinity
 console.log(10 / -0); // -infinity
-console.log(1 * '문자열'); // NaN
+console.log(1 * '문3자열'); // NaN
 
 
 
