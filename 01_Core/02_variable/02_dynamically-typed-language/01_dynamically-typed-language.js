@@ -38,7 +38,7 @@ console.log(typeof test); // object
 test = []; // 배열
 console.log(typeof test); // object
 
-test = functiona(){}; // 함수
+test = function(){}; // 함수
 console.log(typeof test); // function
 
 /* 
