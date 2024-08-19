@@ -20,4 +20,4 @@ let exampleProduct = {
     producer : '신사임당'
 };
 
-displayProduct(exampleProduct); 
+displayProduct(exampleProduct);
